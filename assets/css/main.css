@@ -588,7 +588,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #98c593;
+		color: #fff;
 	}
 
 	sub {
@@ -2035,7 +2035,7 @@ input, select, textarea {
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 2em 0 2em 0;
 		}
 
 			.main.style3 .content > header {
@@ -2272,8 +2272,12 @@ input, select, textarea {
 /* Contact */
 
 	#contact {
+		background: url("../../images/intro.jpg");
+		background-size: cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
 		overflow: hidden;
-		padding-bottom: 0;
+		padding-bottom: 8;
 	}
 
 		#contact .box {
@@ -2313,4 +2317,38 @@ input, select, textarea {
 
 		.intro {
 			padding-bottom: 10em;
+		}
+
+		#hey {
+			color: #fff;
+		}
+
+		#clear-box{
+			background: none;
+		}
+
+		.gallery img {
+			width: 75%;
+			margin: 25px;
+		}
+
+		.gallery img#ryot {
+			padding-top: 18px;
+		}
+
+		.gallery img#strangeworks {
+			padding-top: 15px;
+		}
+		
+		#work-arrow {
+			color: rgb(118, 115, 115);
+		}
+
+		section#work {
+			height: 95vh;
+			padding-bottom: 0;
+		}
+
+		#contact.main.style3 {
+			padding: 10em 0 10em 0;
 		}
