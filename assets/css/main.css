@@ -2325,6 +2325,7 @@ input, select, textarea {
 
 		#clear-box{
 			background: none;
+			text-align: center;
 		}
 
 		.gallery img {
@@ -2347,8 +2348,17 @@ input, select, textarea {
 		section#work {
 			height: 95vh;
 			padding-bottom: 0;
+			overflow-x: unset;
 		}
 
 		#contact.main.style3 {
 			padding: 10em 0 10em 0;
+		}
+
+		#clear-box a {
+			margin: 20px;
+		}
+
+		#linkedin img{
+			margin-bottom: 5px;
 		}
