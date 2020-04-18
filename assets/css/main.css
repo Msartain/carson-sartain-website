@@ -2374,4 +2374,8 @@ input, select, textarea {
 			div.gallery article:last-child {
 				margin-bottom: 30px;
 			}
+
+			section#work {
+				padding-top: 20px;
+			}
 		}
