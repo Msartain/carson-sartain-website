@@ -2299,24 +2299,6 @@ input, select, textarea {
 			transform: translateY(100%);
 		}
 
-		@media screen and (max-width: 736px) {
-
-			#contact .box {
-				padding: 1.5em 1.5em 2em 1.5em;
-			}
-
-			.main.style2 .button.anchored {
-				display: unset;
-			}
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#contact .box {
-				padding: 1em 1em 2em 1em;
-			}
-		}
-
 		.intro {
 			padding-bottom: 10em;
 		}
@@ -2363,4 +2345,33 @@ input, select, textarea {
 
 		#linkedin img{
 			margin-bottom: 5px;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#contact .box {
+				padding: 1.5em 1.5em 2em 1.5em;
+			}
+
+			.main.style2 .button.anchored {
+				display: unset;
+			}
+
+			
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#contact .box {
+				padding: 1em 1em 2em 1em;
+			}
+
+			.gallery img {
+				width: 41%;
+				margin-bottom: 10px;
+			}
+
+			div.gallery article:last-child {
+				margin-bottom: 30px;
+			}
 		}
