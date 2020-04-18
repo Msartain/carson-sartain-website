@@ -2245,7 +2245,7 @@ input, select, textarea {
 
 	#intro {
 		background: url("images/overlay.png"), url("../../images/carson-assets/assets/mountains.jpeg");
-		background-size: 256px 256px, cover;
+		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
@@ -2255,7 +2255,7 @@ input, select, textarea {
 
 	#one {
 		background: url("images/overlay.png"), url("../../images/carson-assets/assets/carson.jpeg");
-		background-size: 256px 256px, cover;
+		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -2264,7 +2264,7 @@ input, select, textarea {
 
 	#two {
 		background: url("images/overlay.png"), url("../../images/carson-assets/assets/art.jpeg");
-		background-size: 256px 256px, cover;
+		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -2305,6 +2305,9 @@ input, select, textarea {
 				padding: 1.5em 1.5em 2em 1.5em;
 			}
 
+			.main.style2 .button.anchored {
+				display: unset;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2312,7 +2315,6 @@ input, select, textarea {
 			#contact .box {
 				padding: 1em 1em 2em 1em;
 			}
-
 		}
 
 		.intro {
@@ -2346,7 +2348,7 @@ input, select, textarea {
 		}
 
 		section#work {
-			height: 95vh;
+			height: auto;
 			padding-bottom: 0;
 			overflow-x: unset;
 		}
