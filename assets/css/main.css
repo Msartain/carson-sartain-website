@@ -2313,12 +2313,16 @@ input, select, textarea {
 		}
 
 		.gallery img {
-			width: 75%;
+			width: 45%;
 			margin: 25px;
 		}
 
 		.gallery img#ryot {
 			padding-top: 18px;
+		}
+
+		#vrai, #sgcc {
+			margin: 0;
 		}
 
 		.gallery img#strangeworks {
